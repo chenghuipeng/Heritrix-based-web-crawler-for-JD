@@ -1,0 +1,49 @@
+2015-12-06T10:59:04.445Z    -5      58970 http://car.jd.com/ L http://www.jd.com/ text/html #021 20151206105838962+4383 sha1:M2GC5ZV4HTQC23TIFDTRD3RCSKGTUIEB - err=java.lang.NullPointerException,2t
+ java.lang.NullPointerException
+	at test.JsoupTest.extract(JsoupTest.java:49)
+	at org.archive.crawler.postprocessor.FrontierScheduler.innerProcess(FrontierScheduler.java:111)
+	at org.archive.crawler.framework.Processor.process(Processor.java:109)
+	at org.archive.crawler.framework.ToeThread.processCrawlUri(ToeThread.java:306)
+	at org.archive.crawler.framework.ToeThread.run(ToeThread.java:154)
+2015-12-06T10:59:20.322Z    -5     223090 http://shuma.jd.com/ L http://www.jd.com/ text/html #049 20151206105838970+24211 sha1:4VR6M2YL3SJDNQUPL6S7KI4E2NNOCAQY - err=java.lang.NullPointerException,2t
+ java.lang.NullPointerException
+	at test.JsoupTest.extract(JsoupTest.java:49)
+	at org.archive.crawler.postprocessor.FrontierScheduler.innerProcess(FrontierScheduler.java:111)
+	at org.archive.crawler.framework.Processor.process(Processor.java:109)
+	at org.archive.crawler.framework.ToeThread.processCrawlUri(ToeThread.java:306)
+	at org.archive.crawler.framework.ToeThread.run(ToeThread.java:154)
+2015-12-06T10:59:54.008Z    -5     509881 http://b.jd.com/ L http://www.jd.com/ text/html #010 20151206105838977+20658 sha1:V2A254YNCW7NJLE7DJE6JQXBB5L44JV5 - err=java.lang.NullPointerException,2t
+ java.lang.NullPointerException
+	at test.JsoupTest.extract(JsoupTest.java:49)
+	at org.archive.crawler.postprocessor.FrontierScheduler.innerProcess(FrontierScheduler.java:111)
+	at org.archive.crawler.framework.Processor.process(Processor.java:109)
+	at org.archive.crawler.framework.ToeThread.processCrawlUri(ToeThread.java:306)
+	at org.archive.crawler.framework.ToeThread.run(ToeThread.java:154)
+2015-12-06T10:59:57.272Z    -5     436575 http://vip.jd.com/ L http://www.jd.com/ text/html #018 20151206105838965+20338 sha1:TS3W2V3XKZYNW2SEP4ZZKN7PRHAQKZJV - err=java.lang.NullPointerException,2t
+ java.lang.NullPointerException
+	at test.JsoupTest.extract(JsoupTest.java:41)
+	at org.archive.crawler.postprocessor.FrontierScheduler.innerProcess(FrontierScheduler.java:111)
+	at org.archive.crawler.framework.Processor.process(Processor.java:109)
+	at org.archive.crawler.framework.ToeThread.processCrawlUri(ToeThread.java:306)
+	at org.archive.crawler.framework.ToeThread.run(ToeThread.java:154)
+2015-12-06T11:00:04.857Z    -5     253061 http://trip.jd.com/ L http://www.jd.com/ text/html #003 20151206105838960+19732 sha1:FGGIH2SOPD7BRZJ3P7N7MZCRBI7UOBJK - err=java.lang.NullPointerException,2t
+ java.lang.NullPointerException
+	at test.JsoupTest.extract(JsoupTest.java:49)
+	at org.archive.crawler.postprocessor.FrontierScheduler.innerProcess(FrontierScheduler.java:111)
+	at org.archive.crawler.framework.Processor.process(Processor.java:109)
+	at org.archive.crawler.framework.ToeThread.processCrawlUri(ToeThread.java:306)
+	at org.archive.crawler.framework.ToeThread.run(ToeThread.java:154)
+2015-12-06T11:00:08.553Z    -5     219188 http://game.jd.com/ L http://www.jd.com/ text/html #002 20151206105838856+18308 sha1:MUNEUTFV3DZWESLGAR6HLEABNWRB2DDL - err=java.lang.NullPointerException,2t
+ java.lang.NullPointerException
+	at test.JsoupTest.extract(JsoupTest.java:41)
+	at org.archive.crawler.postprocessor.FrontierScheduler.innerProcess(FrontierScheduler.java:111)
+	at org.archive.crawler.framework.Processor.process(Processor.java:109)
+	at org.archive.crawler.framework.ToeThread.processCrawlUri(ToeThread.java:306)
+	at org.archive.crawler.framework.ToeThread.run(ToeThread.java:154)
+2015-12-06T11:00:13.094Z    -5     478272 http://mvd.jd.com/ L http://www.jd.com/ text/html #004 20151206105838955+17775 sha1:U4UWXTK7MYCTEFXX3UQIEIPOD4D5HAAC - err=java.lang.NullPointerException,2t
+ java.lang.NullPointerException
+	at test.JsoupTest.extract(JsoupTest.java:46)
+	at org.archive.crawler.postprocessor.FrontierScheduler.innerProcess(FrontierScheduler.java:111)
+	at org.archive.crawler.framework.Processor.process(Processor.java:109)
+	at org.archive.crawler.framework.ToeThread.processCrawlUri(ToeThread.java:306)
+	at org.archive.crawler.framework.ToeThread.run(ToeThread.java:154)

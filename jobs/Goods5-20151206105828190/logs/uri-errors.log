@@ -1,0 +1,6 @@
+2015-12-06T10:58:35.647Z http://www.jd.com/ "Unsupported scheme: data" data:image/png
+2015-12-06T10:58:35.648Z http://www.jd.com/ "Unsupported scheme: data" data:image/png
+2015-12-06T10:58:35.701Z http://www.jd.com/ "gnu.inet.encoding.IDNAException: Contains non-LDH characters. img{0}.360buyimg.com" //img{0}.360buyimg.com/
+2015-12-06T10:58:47.645Z http://bao.jd.com/ "http scheme specific part is too short: //" https://
+2015-12-06T10:58:47.646Z http://bao.jd.com/ "http scheme specific part is too short: //" http://
+2015-12-06T10:59:01.310Z http://www.jd.hk/ "gnu.inet.encoding.IDNAException: String too long. " http://:http://search.jd.hk/Search?keyword=%E6%BE%B3%E6%B4%B2Gumption&enc=utf-8&wq=%E6%BE%B3%E6%B4%B2Gumption&pvid=rev61rhi.vtv1epf4

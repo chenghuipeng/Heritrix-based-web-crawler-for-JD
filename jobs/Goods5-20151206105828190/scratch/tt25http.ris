@@ -1,0 +1,65 @@
+SupportedOnClient()) {
+	        ITSMetrics.emitPagePing = function() {
+	            var s_code=ITSMetrics.omniture.t();
+                // Make a second ping to Figaro for Preview
+                if (window.webPreview) {
+                    var queryParams = {};
+                    queryParams.responseType="image";
+                    queryParams.eventVersion = 1;  // begin query parameters
+                    queryParams.eventType = "page";  // hardcoded
+
+                    var time = new Date();
+                    queryParams.eventTime = time.getTime();
+                    queryParams.pageName = ITSMetrics.omniture.pageName;
+                    queryParams.pageUrl = window.location.href;  // current page url
+                    queryParams.refUrl = document.referrer; //Refer
+                    queryParams.pageType = ITSMetrics.omniture.channel; //Channel
+
+                    queryParams.userAgent = window.navigator.userAgent; //User agent
+
+                    queryParams.screenWidth = screen.width;
+                    queryParams.screenHeight = screen.height; // screen size
+
+                    queryParams.windowInnerWidth = window.innerWidth;  // browser width
+                    queryParams.windowInnerHeight = window.innerHeight;  // browser height
+
+                    queryParams.app = navigator.appName;
+
+                    var url = "https://xp.apple.com/report/2/xp_its_preview";
+
+                    url = its.url.appendUrlParameters(url, queryParams);
+                    var image = new Image();
+                    image.src = url;
+                }
+                if (s_code) {
+	                var containingDiv = document.createElement('div');
+	                containingDiv.innerHTML = s_code;
+	                document.body.appendChild(containingDiv);
+	            }
+	        };
+	        its.x.addEventListener(window, 'load', function() { window.setTimeout(ITSMetrics.emitPagePing, 1) }, false );
+	    }
+    };
+
+    if (!window["ITSMetrics"]){ 
+	    iTSDefer.register(function() {
+	        iTSMetricsCallbackFunction();
+	    });
+    } else {
+        iTSMetricsCallbackFunction();
+    }
+--></script>
+    <script>
+        if (!window.its) {
+            window.its = {};
+        }
+        window.its.markupLoadEndTime = new Date().getTime();
+    </script>
+
+
+
+</body>
+
+
+
+</html>

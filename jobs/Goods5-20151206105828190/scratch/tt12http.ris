@@ -1,0 +1,246 @@
+乘坐私家车都赔</p>
+            <span class="price">&yen;<span class="num">174</span>/年</span>
+        </a>
+        <a href="#" target="_blank" class="insur-item-link">
+            <div class="name" title="阳光保险安心出行险">阳光保险安心出行险 旅途意外险</div>
+            <p class="extra">保障金额25万元</p>
+            <p class="extra">驾驶或乘坐私家车都赔</p>
+            <span class="price">&yen;<span class="num">174</span>/年</span>
+        </a>
+        <a href="#" target="_blank" class="insur-item-link">
+            <div class="name" title="阳光保险安心出行险">阳光保险安心出行险 旅途意外险</div>
+            <p class="extra">保障金额25万元</p>
+            <p class="extra">驾驶或乘坐私家车都赔</p>
+            <span class="price">&yen;<span class="num">1343474</span>/年</span>
+        </a>
+        <a href="#" target="_blank" class="insur-item-link">
+            <div class="name" title="阳光保险安心出行险">阳光保险安心出行险 旅途意外险</div>
+            <p class="extra">保障金额25万元</p>
+            <p class="extra">驾驶或乘坐私家车都赔</p>
+            <span class="price">&yen;<span class="num">174</span>/年</span>
+        </a>
+        <span class="line"></span>
+    </div>
+    <div id="zhaopin" style="display: none;">
+        有意者请发送简历到：yangtao@jd.com,wuwuhuan@jd.com
+        京东金融招聘高级JAVA开发工程师
+
+        1、希望您可以熟练运用Spring、Struts、Ibatis、SOA服务框架，熟练掌握Socket、HTTP、Web service等网络协议；
+        2、作为基础技能，IO操作、多线程、状态机等基础框架，您必须熟悉吧，对JVM原理的了解也是必须深入的，您觉得呢？
+        3、当我们锲而不舍，精益求精地雕琢一款产品的时候，能够熟练各种调试工具，会让你的形象在妹子面前瞬间高大起来，而且您还得熟练JAVA性能优化技术。
+        4、熟练使用Mysql、Oracle或Sql server等数据库，并具备解决基本性能问题，俨然已经成为防身必杀技之一，您一定得具备。
+        5、至于Linux/jQuery/Ajax等技术，希望你的熟练程度就像手拿筷子吃饭一样熟练。
+        6、如果以上能力您都具备，我想三年以上的相关经验你肯定具备。否则，你就是传说中的大神，我们同样欢迎。
+
+        具备以下苛刻的条件，您将更具优势：
+        1、能独立承担起独立系统的设计、开发、维护工作，比如您单枪匹马或带领团队完成过某个项目。
+        2、作为资深人士的你，是否参与过大型互联网产品类型项目开发并且总结出了属于自己的经验呢？有，记得一定告诉我们。
+        3、在这个电商滋润的时代，你的电商网站开发经验，将在这里继续大放异彩！拥有支付、保险或者消费金融经验者我们也非常欢迎哦。
+
+        如果觉得这些跟您非常匹配，那就快扔简历吧！坑我们都挖好了；yangtao@jd.com,wuwuhuan@jd.com
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="http://static.360buyimg.com/finance/??common/lib/jquery/1.6.4/jquery.js,base/1.2.0/js/base.js"></script>
+<script src="http://static.360buyimg.com/finance/insurance/index/1.0.0/js/index.js"></script>
+<script src="/statics/js/bx-goods.js"></script>
+
+<script type="text/javascript">
+    $(function(){
+        loadHomeLicai();
+        loadHomeBanner();
+        loadHotAccidentList();
+        loadHotTravelList();
+        loadHotHealthList();
+    });
+</script>
+
+<script>
+    $(function(){
+        //理财问答模块数据调用
+        seajs.use('financial/common/unit/issue/1.0.0/issue', function(issue){
+            //seajs.use('/js/issue', function(issue){
+            new issue({
+                key:30000,
+                systemId: 0
+            });
+        });
+    });
+
+    var jaq = jaq || [];
+    jaq.push(['account','UA-J2011-12']);
+    jaq.push(['domain','jr.jd.com']);
+    (function() {
+        var ja = document.createElement('script'); ja.type = 'text/javascript'; ja.async = true;
+
+        ja.src = ('https:' == document.location.protocol ? 'https://cscssl' : 'http://csc') + '.jd.com/joya.js';
+        var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ja,s);
+    })();
+
+    var _jaq = _jaq || [];
+    _jaq.push(['_setAccount', 'UA-JR-BAOXIAN']);
+    _jaq.push('indexPage');
+
+    (function() {
+        var ja = document.createElement('script'); ja.type = 'text/javascript'; ja.async = true;
+        ja.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'rdp.jd.com/resource/ja.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ja, s);
+    })();
+
+    var jaq_2 = jaq_2 || [];
+    jaq_2.push(['account','UA-J2011-12']);
+    jaq_2.push(['domain','jr.jd.com']);
+    (function() {
+        var ja = document.createElement('script'); ja.type = 'text/javascript'; ja.async = true;
+        ja.src = 'https:' == document.location.protocol ? 'https://static.wangyin.com/member/assets/click.js' : 'http://click.jr.jd.com/wl.dev.js';
+        var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ja,s);
+    })();
+
+    seajs.use('common/unit/xPromotion/1.0.0/xPromotion', function (xPromotion) {
+        // 金融通用顶部广告位
+        new xPromotion({
+            ad_id: '657528',
+            batchCount: '1',
+            tplType: '1'
+        });
+
+        new xPromotion({
+            targetEle: '#J_jrCommonPromoBottom',
+            ad_id: '657529',
+            batchCount: '1',
+            tplType: '3',
+            imgWidth: '822',
+            imgHeight: '75'
+        });
+    });
+
+
+</script>
+
+<input type="hidden" name="buried_point" id="buried_point" value="11001"/>
+<script type="text/javascript" src="http://t.jr.jd.com/js/clickBao.js"></script>
+
+<script type="text/javascript">
+    var google_tag_params = {
+        dynx_itemid:[''],
+        dynx_prodtype:['baoxianpindao'],
+        dynx_pagetype:['category'],
+        dynx_usertype:['']
+    };
+    var conversion_value = null;
+</script>
+
+<script type="text/javascript">
+    dataLayer = [{
+        'google_tag_params': window.google_tag_params,
+        'conversion_value': window.conversion_value
+    }];
+</script>
+
+<!-- Google Tag Manager -->
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-W9HSZR" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W9HSZR');</script>
+<!-- End Google Tag Manager -->
+<!--container end-->
+
+<div class="w">
+    <div class="insur-ask clearfix">
+        <!--保险问答-->
+        <div style="float:left;width:830px;">
+            <div class="new-ask">
+                <div class="ask-tit">
+                    <h3 class="ask-tittle">保险问答</h3>
+                <span class="ask-more">
+                    <a href="http://club.jr.jd.com/baoxian/jingxuan" target="_blank" clstag="jr|keycount|channelbbs|all">更多&nbsp;&gt;</a>
+                </span>
+                </div>
+                <div class="ask-con">
+                    <ul id="issueTab" class="count">
+                        <li class="on" clstag="jr|keycount|channelbbs|jingxuan">精选问题</li>
+                        <li clstag="jr|keycount|channelbbs|zuixin">最新问题</li>
+                        <div class="clear"></div>
+                    </ul>
+                    <div id="s-con">
+                        <div class="issue-wrap show"></div>
+                        <div class="issue-wrap hide"></div>
+                    </div>
+                </div>
+                <div class="sub_q2">
+                </div>
+                <div class="sub_q">
+                    <div class="aq-search">
+                        <form id="searchForm" target="_blank" action="http://club.jr.jd.com/qa/showSearch?searchText">
+                            <input id="searchText" class="search-text" type="text" placeholder="提问前先搜索，看看是否已有答案">
+                            <input id="searchBtn" class="submit-btn" type="submit" value="">
+                            <a id="askBtn" class="ask-btn" href="javascript:;" clstag="jr|keycount|channelbbs|ask">我要提问</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="J_jrCommonPromoBottom" class="mb20"></div>
+        </div>
+        <!--我要提问弹层-->
+        <div class="shadow" id="owin3"></div>
+        <div class="window_close" id="owin2"></div>
+        <div class="window_box" id="owin">
+            <div class="window_ask">
+                <h3 clstag="jr|keycount|channelbbs|ask">我要提问</h3>
+                <span class="close-btn"></span>
+            </div>
+            <div class="result_box result_box2">
+                <form class="re_form re_form2" action="#" target="_blank" id="oForm">
+                    <span data-key="30000"><b class="radio"></b>保险</span>
+                </form>
+                <div class="clear"></div>
+                <textarea class="re_text re_text2" maxlength="100" id="quesTextarea"></textarea>
+                <span id="errorWrap" class="re_pcount re_pcount2 error-wrap"></span>
+                <p id="countWords" class="re_pcount re_pcount2">您还可以输入<span>100</span>字</p>
+                <a id="submitQues" href="javascript:;" class="re_btn re_btn2">发布问题</a>
+            </div>
+        </div>
+        <div class="window_box" id="layerSucc">
+            <div class="window_ask">
+                <h3 clstag="jr|keycount|channelbbs|ask">我要提问</h3>
+                <span class="close-btn"></span>
+            </div>
+            <i class="sucess_pic"></i>
+            <h4>提问成功！一有答案就会通知您！</h4>
+            <div class="clear"></div>
+            <!--<p id="close_p"><span>3</span> 秒后自动关闭</p>-->
+            <div class="issue-btn-wrap">
+                <a id="closeLayer" class="com-redbtn2" href="javascript:;">确定</a>
+                <a id="showDetail" target="_blank" class="com-bluebtn2">查看问题详情</a>
+            </div>
+        </div>
+        <!--我要提问弹层 end-->
+        <!--理财问答end-->
+        <div class="insur-ad">
+            <div class="tit">
+                <span class="jr-name">京东金融APP</span>
+                <span class="text">随身理财 轻松赚钱</span>
+            </div>
+            <div class="item jrappbg"><img src="http://img30.360buyimg.com/jr_image/jfs/t769/342/378057560/42616/f35481c7/54a9ec7bN50df140e.png"></div>
+            <div class="item">
+                <a href="http://licai.bx.jd.com/item.action?skuId=101001" target="_blank" clstag="jr|keycount|jr_baoxian|ycdbgg1"><img src="http://static.360buyimg.com/finance/insurance/index/1.0.0/css/i/1.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="http://sale.jd.com/act/U6ZDtgHwTz.html" target="_blank" clstag="jr|keycount|jr_baoxian|ycdbgg2"><img src="http://img30.360buyimg.com/baoxian/jfs/t2341/277/824593507/12631/5daf6c8/562dea02N823fa765.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div><!--footer-->
+<!--footer--><div class="f-copyright">    <div class="grid-1200 footerHolder">        <div class="footer-nav">            <p>                <a href="http://help.jr.jd.com/show/helpcenter/110.html" target="_blank" clstag="jr|keycount|jr_shouye|footer1">关于京东金融</a><span class="footer-nav-cut">|</span>                <a href="http://help.jr.jd.com/show/helpcenter/113.html" target="_blank" clstag="jr|keycount|jr_shouye|footer2">关于京东小金库</a><span class="footer-nav-cut">|</span>                <a href="http://help.jr.jd.com/show/helpcenter/133.html" target="_blank" clstag="jr|keycount|jr_shouye|footer3">关于京东钱包</a><span class="footer-nav-cut">|</span>                <a href="http://help.jr.jd.com/show/helpcenter/148.html" target="_blank">关于京东白条</a>                <span class="footer-nav-cut">|</span>                <a href="http://help.jr.jd.com/show/helpcenter/139.html" target="_blank" clstag="jr|keycount|jr_shouye|footer4">联系我们</a><span class="footer-nav-cut">|</span>                <a href="http://help.jr.jd.com/show/helpcenter/117.html" target="_blank" clstag="jr|keycount|jr_shouye|footer5">免责声明</a>            </p>            <p>                Copyright &copy; 2004-2015 京东JD.com 版权所有<span class="footer-nav-cut">|</span>投资有风险，购买需谨慎            </p>        </div>        <div class="footer-contact">            <div class="f-contact-time">联系我们<span>（9:00-22:00）</span></div>            <div class="f-contact-way">                <span class="f-contact-tel">400 098 8511</span>                <span class="f-contact-type">(个人业务)</span>                <a class="f-contact-ol online" href="http://chat.jd.com/jd/chat?entry=jd_jr" target="_blank" clstag="jr|keycount|jr_shouye|footerkf">在线客服</a>                <a class="f-contact-ol f-contact-mail" target="_blank" href="http://jr.jd.com/mail/index.html" clstag="jr|keycount|jr_shouye|footerkfmail">客服邮箱</a>            </div>            <div class="f-contact-way">                <span class="f-contact-tel">400 088 8816</span>                <span class="f-contact-type">(企业业务)</span>            </div>        </div>    </div></div><!--footer end-->
+<!--footer end-->
+</body>
+</html>
