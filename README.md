@@ -29,7 +29,7 @@
 		wc.close();
 		String pageXml = page.asXml(); // 以xml的形式获取响应文本
 		
-###2.2 提取网页信息
+### 2.2 提取网页信息
 
 得到网页的文本之后，用jsoup来解析网页内容，
 提取出有用的信息。jsoup 是一款Java 的HTML解析器，
