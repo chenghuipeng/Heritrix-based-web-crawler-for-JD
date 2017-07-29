@@ -65,8 +65,10 @@
 前台页面访问服务器之后，服务器以xml的形式返回响应。返回响应的格式和内容如下图
 ![返回响应](img/返回响应.png)
 ![返回响应2](img/返回响应2.png)
+
 实现异步刷新的javascript代码如下所示：
 
+```
        var XMLHttpReq;  
            //创建XMLHttpRequest对象         
             function createXMLHttpRequest() {  
@@ -105,9 +107,40 @@
             }  
         }  
 
-在爬虫取得服务器的响应之后，
-前台的javascript代码负责处理数据并且使表格新增一行，
-在新增的这一行中显示从服务器获取的数据。
+         function addRow(tableid){
+        	var element = XMLHttpReq.responseXML.getElementsByTagName("str");
+        	if(element.length==0)
+        		return;
+                var name = XMLHttpReq.responseXML.getElementsByTagName("name")[0].firstChild.nodeValue;  
+                var id = XMLHttpReq.responseXML.getElementsByTagName("id")[0].firstChild.nodeValue; 
+                var brand = XMLHttpReq.responseXML.getElementsByTagName("brand")[0].firstChild.nodeValue;  
+                var orign = XMLHttpReq.responseXML.getElementsByTagName("orign")[0].firstChild.nodeValue;  
+                var time = XMLHttpReq.responseXML.getElementsByTagName("time")[0].firstChild.nodeValue; 
+                var price = XMLHttpReq.responseXML.getElementsByTagName("price")[0].firstChild.nodeValue; 
+                var url = XMLHttpReq.responseXML.getElementsByTagName("url")[0].firstChild.nodeValue; 
+        	//添加行
+        	var newTr = tableid.insertRow();
+        	//添加列
+        	var newTd0 = newTr.insertCell();
+        	var newTd1 = newTr.insertCell();
+       		var newTd2 = newTr.insertCell();
+       		var newTd3 = newTr.insertCell();
+        	var newTd4 = newTr.insertCell();
+       		var newTd5 = newTr.insertCell();
+       		var newTd6 = newTr.insertCell();
+       		//var newTd7 = newTr.insertCell();
+        	//设置列内容和属性
+        	newTd0.innerHTML = id;
+        	newTd1.innerHTML = name;
+        	newTd2.innerHTML = brand;
+        	newTd3.innerHTML = time;
+        	newTd4.innerHTML = orign;
+        	newTd5.innerHTML = price;    
+        	newTd6.innerHTML = url;
+        	}
+```
+
+前端页面发送 ajax请求，后台收到请求后处理请求并通过XML的方式返回响应，前端接收到响应后处理返回的数据并且通过js代码将返回的数据显示在页面上，达到不刷新整个页面也能使表格动态扩展的效果。
 
 ##3. 运行
 在eclipse中找到本系统的Heritrix类，运行这个类，在控制台可以看到服务器的启动过程，如下图所示。
